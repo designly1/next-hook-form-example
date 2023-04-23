@@ -94,6 +94,7 @@ export default function Home() {
                 <Switch
                   label="Disable Client Validation"
                   onChange={handleDisableClientValidation}
+                  checked={disableClientValidation}
                 />
               </div>
             </>
